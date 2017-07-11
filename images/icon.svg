@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512"
+   height="512"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="icon.svg"
+   inkscape:export-filename="D:\git\lucifer\tenis\images\icon512.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3927">
+      <stop
+         id="stop3929"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         style="stop-color:#7f7f7f;stop-opacity:1;"
+         offset="0.37148771"
+         id="stop3931" />
+      <stop
+         id="stop3933"
+         offset="1"
+         style="stop-color:#000000;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3905">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3907" />
+      <stop
+         id="stop3925"
+         offset="0.26705652"
+         style="stop-color:#7f7f7f;stop-opacity:1;" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="1"
+         id="stop3909" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3871">
+      <stop
+         id="stop3883"
+         offset="0"
+         style="stop-color:#000000;stop-opacity:0.49803922;" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop3875" />
+    </linearGradient>
+    <filter
+       id="filter3841"
+       inkscape:label="Inner Glow"
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Adds a colorizable glow inside"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3843"
+         stdDeviation="4.8287951807228922 28.521204819277109"
+         result="result8" />
+      <feComposite
+         id="feComposite3845"
+         in2="result8"
+         result="result6"
+         in="result8"
+         operator="over" />
+      <feComposite
+         id="feComposite3847"
+         in2="result6"
+         operator="in"
+         result="result11" />
+      <feFlood
+         id="feFlood3849"
+         result="result10"
+         in="result11"
+         flood-opacity="1"
+         flood-color="rgb(255,222,85)" />
+      <feBlend
+         id="feBlend3851"
+         in2="result10"
+         mode="normal"
+         in="result11"
+         result="result12" />
+      <feComposite
+         id="feComposite3853"
+         in2="SourceGraphic"
+         result="result2"
+         operator="in"
+         in="result12" />
+    </filter>
+    <filter
+       id="filter3855"
+       inkscape:menu-tooltip="In and out glow with a possible offset and colorizable flood"
+       inkscape:menu="Shadows and Glows"
+       inkscape:label="Cutout Glow"
+       color-interpolation-filters="sRGB">
+      <feOffset
+         id="feOffset3857"
+         dy="3"
+         dx="3" />
+      <feGaussianBlur
+         id="feGaussianBlur3859"
+         result="result8"
+         stdDeviation="3" />
+      <feFlood
+         id="feFlood3861"
+         flood-color="rgb(0,0,0)"
+         flood-opacity="1"
+         in="result8"
+         result="result10" />
+      <feComposite
+         id="feComposite3863"
+         in2="SourceGraphic"
+         operator="in"
+         in="result10"
+         result="result9" />
+      <feBlend
+         id="feBlend3865"
+         in2="result9"
+         mode="normal"
+         in="result8" />
+    </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3927"
+       id="radialGradient3923"
+       cx="15.022755"
+       cy="509.1293"
+       fx="15.022755"
+       fy="509.1293"
+       r="250.43201"
+       gradientTransform="matrix(0.97509517,-0.41387428,0.33408937,0.78712051,-205.02774,212.71675)"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       id="filter3939"
+       inkscape:label="Inner Glow"
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Adds a colorizable glow inside"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3941"
+         stdDeviation="10"
+         result="result8" />
+      <feComposite
+         id="feComposite3943"
+         in2="result8"
+         result="result6"
+         in="SourceGraphic"
+         operator="in" />
+      <feComposite
+         id="feComposite3945"
+         in2="result6"
+         operator="in"
+         result="result11" />
+      <feFlood
+         id="feFlood3947"
+         result="result10"
+         in="result11"
+         flood-opacity="1"
+         flood-color="rgb(255,255,255)" />
+      <feBlend
+         id="feBlend3949"
+         in2="result10"
+         mode="normal"
+         in="result11"
+         result="result12" />
+      <feComposite
+         id="feComposite3951"
+         in2="SourceGraphic"
+         result="result2"
+         operator="in"
+         in="result12" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4213">
+      <rect
+         rx="102.7"
+         ry="63.485001"
+         y="590.88446"
+         x="551.93781"
+         height="374.13596"
+         width="500"
+         id="rect4215"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.86400002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4000714"
+     inkscape:cx="212.22999"
+     inkscape:cy="297.74185"
+     inkscape:document-units="px"
+     inkscape:current-layer="g3935"
+     showgrid="false"
+     inkscape:window-width="1680"
+     inkscape:window-height="946"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-540.36218)"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:#282828;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       id="rect2985"
+       width="500"
+       height="374.13596"
+       x="6.4832392"
+       y="610.07635"
+       ry="63.485001"
+       rx="102.7" />
+  </g>
+  <g
+     style="opacity:0.96688742;display:inline"
+     transform="translate(0,-540.36218)"
+     id="g3935"
+     inkscape:groupmode="layer"
+     inkscape:label="Копия слоя Layer 1#1"
+     sodipodi:insensitive="true">
+    <rect
+       rx="102.7"
+       ry="63.485001"
+       y="610.07635"
+       x="6.4832392"
+       height="374.13596"
+       width="500"
+       id="rect3937"
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter3939)" />
+  </g>
+  <g
+     style="opacity:0.56863134;display:inline"
+     transform="translate(0,-540.36218)"
+     id="g3953"
+     inkscape:groupmode="layer"
+     inkscape:label="Копия слоя Layer 1#2"
+     sodipodi:insensitive="true">
+    <g
+       id="g4174"
+       transform="translate(-545.45454,19.191919)"
+       clip-path="url(#clipPath4213)">
+      <g
+         inkscape:tile-y0="26.888892"
+         inkscape:tile-x0="528.28283"
+         inkscape:tile-h="14"
+         inkscape:tile-w="554.54547"
+         inkscape:tile-cy="33.888892"
+         inkscape:tile-cx="805.55556"
+         transform="translate(539.39394,-11.111111)"
+         id="g3990">
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:none"
+           id="rect3983"
+           width="554.54547"
+           height="7"
+           x="-11.111111"
+           y="585.36218" />
+        <rect
+           y="578.36218"
+           x="-11.111111"
+           height="7"
+           width="554.54547"
+           id="rect3985"
+           style="fill:#000000;fill-opacity:1;stroke:none" />
+      </g>
+      <use
+         id="use4114"
+         xlink:href="#g3990"
+         inkscape:tiled-clone-of="#g3990"
+         y="0"
+         x="0"
+         width="512"
+         height="512" />
+      <use
+         id="use4116"
+         transform="translate(0,14)"
+         xlink:href="#g3990"
+         inkscape:tiled-clone-of="#g3990"
+         y="0"
+         x="0"
+         width="512"
+         height="512" />
+      <use
+         id="use4118"
+         transform="translate(0,28)"
+         xlink:href="#g3990"
+         inkscape:tiled-clone-of="#g3990"
+         y="0"
+         x="0"
+         width="512"
+         height="512" />
+      <use
+         id="use4120"
+         transform="translate(0,42)"
+         xlink:href="#g3990"
+         inkscape:tiled-clone-of="#g3990"
+         y="0"
+         x="0"
+         width="512"
+         height="512" />
+      <use
+         id="use4122"
+         transform="translate(0,56)"
+         xlink:href="#g3990"
+         inkscape:tiled-clone-of="#g3990"
+         y="0"
+         x="0"
+         width="512"
+         height="512" />
+      <use
+         id="use4124"
+         transform="translate(0,70)"
+         xlink:href="#g3990"
+         inkscape:tiled-clone-of="#g3990"
+         y="0"
+         x="0"
+         width="512"
+         height="512" />
+      <use
+         id="use4126"
+         transform="translate(0,84)"
+         xlink:href="#g3990"
+         inkscape:tiled-clone-of="#g3990"
+         y="0"
+         x="0"
+         width="512"
+         height="512" />
+      <use
+         id="use4128"
+         transform="translate(0,98)"
+         xlink:href="#g3990"
+         inkscape:tiled-clone-of="#g3990"
+         y="0"
+         x="0"
+         width="512"
+         height="512" />
+      <use
+         id="use4130"
+         transform="translate(0,112)"
+         xlink:href="#g3990"
+         inkscape:tiled-clone-of="#g3990"
+         y="0"
+         x="0"
+         width="512"
+         height="512" />
+      <use
+         id="use4132"
+         transform="translate(0,126)"
+         xlink:href="#g3990"
+         inkscape:tiled-clone-of="#g3990"
+         y="0"
+         x="0"
+         width="512"
+         height="512" />
+      <use
+         id="use4134"
+         transform="translate(0,140)"
+         xlink:href="#g3990"
+         inkscape:tiled-clone-of="#g3990"
+         y="0"
+         x="0"
+         width="512"
+         height="512" />
+      <use
+         id="use4136"
+         transform="translate(0,154)"
+         xlink:href="#g3990"
+         inkscape:tiled-clone-of="#g3990"
+         y="0"
+         x="0"
+         width="512"
+         height="512" />
+      <use
+         id="use4138"
+         transform="translate(0,168)"
+         xlink:href="#g3990"
+         inkscape:tiled-clone-of="#g3990"
+         y="0"
+         x="0"
+         width="512"
+         height="512" />
+      <use
+         id="use4140"
+         transform="translate(0,182)"
+         xlink:href="#g3990"
+         inkscape:tiled-clone-of="#g3990"
+         y="0"
+         x="0"
+         width="512"
+         height="512" />
+      <use
+         id="use4142"
+         transform="translate(0,196)"
+         xlink:href="#g3990"
+         inkscape:tiled-clone-of="#g3990"
+         y="0"
+         x="0"
+         width="512"
+         height="512" />
+      <use
+         id="use4144"
+         transform="translate(0,210)"
+         xlink:href="#g3990"
+         inkscape:tiled-clone-of="#g3990"
+         y="0"
+         x="0"
+         width="512"
+         height="512" />
+      <use
+         id="use4146"
+         transform="translate(0,224)"
+         xlink:href="#g3990"
+         inkscape:tiled-clone-of="#g3990"
+         y="0"
+         x="0"
+         width="512"
+         height="512" />
+      <use
+         id="use4148"
+         transform="translate(0,238)"
+         xlink:href="#g3990"
+         inkscape:tiled-clone-of="#g3990"
+         y="0"
+         x="0"
+         width="512"
+         height="512" />
+      <use
+         id="use4150"
+         transform="translate(0,252)"
+         xlink:href="#g3990"
+         inkscape:tiled-clone-of="#g3990"
+         y="0"
+         x="0"
+         width="512"
+         height="512" />
+      <use
+         id="use4152"
+         transform="translate(0,266)"
+         xlink:href="#g3990"
+         inkscape:tiled-clone-of="#g3990"
+         y="0"
+         x="0"
+         width="512"
+         height="512" />
+      <use
+         id="use4154"
+         transform="translate(0,280)"
+         xlink:href="#g3990"
+         inkscape:tiled-clone-of="#g3990"
+         y="0"
+         x="0"
+         width="512"
+         height="512" />
+      <use
+         id="use4156"
+         transform="translate(0,294)"
+         xlink:href="#g3990"
+         inkscape:tiled-clone-of="#g3990"
+         y="0"
+         x="0"
+         width="512"
+         height="512" />
+      <use
+         id="use4158"
+         transform="translate(0,308)"
+         xlink:href="#g3990"
+         inkscape:tiled-clone-of="#g3990"
+         y="0"
+         x="0"
+         width="512"
+         height="512" />
+      <use
+         id="use4160"
+         transform="translate(0,322)"
+         xlink:href="#g3990"
+         inkscape:tiled-clone-of="#g3990"
+         y="0"
+         x="0"
+         width="512"
+         height="512" />
+      <use
+         id="use4162"
+         transform="translate(0,336)"
+         xlink:href="#g3990"
+         inkscape:tiled-clone-of="#g3990"
+         y="0"
+         x="0"
+         width="512"
+         height="512" />
+      <use
+         id="use4164"
+         transform="translate(0,350)"
+         xlink:href="#g3990"
+         inkscape:tiled-clone-of="#g3990"
+         y="0"
+         x="0"
+         width="512"
+         height="512" />
+      <use
+         id="use4166"
+         transform="translate(0,364)"
+         xlink:href="#g3990"
+         inkscape:tiled-clone-of="#g3990"
+         y="0"
+         x="0"
+         width="512"
+         height="512" />
+      <use
+         id="use4168"
+         transform="translate(0,378)"
+         xlink:href="#g3990"
+         inkscape:tiled-clone-of="#g3990"
+         y="0"
+         x="0"
+         width="512"
+         height="512" />
+      <use
+         id="use4170"
+         transform="translate(0,392)"
+         xlink:href="#g3990"
+         inkscape:tiled-clone-of="#g3990"
+         y="0"
+         x="0"
+         width="512"
+         height="512" />
+      <use
+         id="use4172"
+         transform="translate(0,406)"
+         xlink:href="#g3990"
+         inkscape:tiled-clone-of="#g3990"
+         y="0"
+         x="0"
+         width="512"
+         height="512" />
+    </g>
+  </g>
+  <g
+     style="opacity:0.52317882;display:inline"
+     transform="translate(0,-540.36218)"
+     id="g3913"
+     inkscape:groupmode="layer"
+     inkscape:label="Копия слоя Layer 1"
+     sodipodi:insensitive="true">
+    <rect
+       rx="102.7"
+       ry="63.485001"
+       y="610.07635"
+       x="6.4832392"
+       height="374.13596"
+       width="500"
+       id="rect3915"
+       style="fill:url(#radialGradient3923);fill-opacity:1;fill-rule:evenodd;stroke:none" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Слой"
+     style="display:inline">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect4218"
+       width="31.427"
+       height="140"
+       x="437.12054"
+       y="142.73312" />
+    <rect
+       y="239.15675"
+       x="47.140442"
+       height="140"
+       width="31.427"
+       id="rect4222"
+       style="fill:#ffffff;fill-opacity:1;stroke:none" />
+    <g
+       id="g4238">
+      <rect
+         style="fill:#ffffff;fill-opacity:0.78431373;stroke:none"
+         id="rect4226"
+         width="31.427"
+         height="31.427"
+         x="328.41141"
+         y="232.59236" />
+      <rect
+         y="242.30585"
+         x="306.26917"
+         height="31.427"
+         width="31.427"
+         id="rect4228"
+         style="fill:#ffffff;fill-opacity:0.31372549;stroke:none" />
+      <rect
+         y="224.87888"
+         x="352.83914"
+         height="31.427"
+         width="31.427"
+         id="rect4224"
+         style="fill:#ffffff;fill-opacity:1;stroke:none" />
+    </g>
+  </g>
+</svg>

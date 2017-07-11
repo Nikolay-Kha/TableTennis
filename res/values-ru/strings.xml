@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="menuResume">Продолжить</string>
+    <string name="menuPause">Противник взял паузу</string>
+    <string name="menuNewGame">Новая игра</string>
+	<string name="menOptions">Опции</string>
+	<string name="menuAbout">О программе</string>
+	<string name="menuExit">Выход</string>
+	
+	<string name="aboutTitle">О программе</string>
+	<string name="aboutClose">Закрыть</string>
+	<string name="aboutText">Игра классический настольный теннис для Android.\nНаписана GreenLog\ne-mail: greenlogger@gmail.com\n\nБольшое спасибo elb0wf4ce за советы!</string>
+	
+	<string name="rateText">Понравилась игра? Оцените, пожалуйста.</string>
+	<string name="rateOk">Сейчас!</string>
+	<string name="rateLater">Позже</string>
+	<string name="rateNever">Никогда</string>
+	
+	
+	<string name="optionSound">Звук</string>
+	<string name="optionInput">Тип управления:</string>
+	<string name="optionInputOnScreen">На экране</string>
+	<string name="optionInputTilt">Наклон 1</string>
+	<string name="optionInputTilt2">Наклон 2</string>
+	<string name="optionInputTiltSens">Чувствительность наклона:</string>
+	<string name="optionDifficulty">Сложность:</string>
+	<string name="optionEasy">Легко</string>
+	<string name="optionNormal">Нормально</string>
+	<string name="optionHard">Сложно</string>
+	<string name="optionVeryHard">Очень сложно</string>
+	<string name="optionNightmare">Невозможно</string>
+	<string name="optionPlayers">Режим:</string>
+	<string name="optionArcade">Один игрок - аркадный режим</string>
+	<string name="optionSingleplayer">Один игрок - против Андройда</string>
+	<string name="optionTwoPlayers">Два игрока</string>
+	<string name="optionBtMulti">Сетевая по Bluetooth</string>
+	<string name="optionWiFiMulti">Сетевая по Wi-Fi Direct</string>
+	<string name="optionPos">Позиция игрока:</string>
+	<string name="optionPosLeft">Слева</string>
+	<string name="optionPosRight">Справа</string>
+	<string name="optionPosSwap">Менять</string>
+	<string name="optionPosLan">Менять / получать от противника</string>
+	<string name="optionDefaultTilt">Установить текущий наклон, как нулевой</string>
+	
+	<string name="ok">ОК</string>
+	<string name="gameover">Конец игры</string>
+	<string name="gameoverLeftWin">Левый игрок победил!</string>
+	<string name="gameoverRightWin">Правый игрок победил!</string>
+	<string name="gameoverYouWin">Вы победили!</string>
+	<string name="gameoverYouLose">Вы проиграли!</string>
+	<string name="playagain">Играть снова</string>
+	<string name="mainmenu">Главное меню</string>
+	<string name="difficultyChanged">Сложность применется в новой игре.</string>
+	
+		
+	<string name="connectionLost">Соединение потеряно.</string>
+	<string name="connectionProblem">Проблема с соединением. (Разные версии игры?)</string>
+	<string name="connectionLostClose">Закрыть</string>
+	
+	<string name="serverRun">Выберите удаленное устройство или ждите входящего подключения.\nВидимость Bluetooth</string>
+	<string name="serverRun2">секунд осталось. Поиск устройств...  \nИмя этого устройства:</string>
+	<string name="serverRun3">\nОшибка Bluetooth: входящие подключения не принимаются. Попробуйте перезагрузить ваше устройство.</string>
+	<string name="connectString">Подключение к:</string>
+	<string name="connectError">Ошибка соединения:</string>
+	<string name="initError">Ошибка запуска сети</string>
+</resources>

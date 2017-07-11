@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:id="@+id/mainLayout"
+    android:layout_height="fill_parent">
+    
+    <com.greenlogger.tennis.TennisView class="com.greenlogger.tennis.TennisView"
+            android:id="@+id/tennisview"
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent"/>
+
+    
+    <!-- Bluetooth bar -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/bluetoothBar"
+		android:orientation="vertical"
+		android:padding="15dp"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:visibility="gone">
+		
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/bluetoothBarPrivate"
+		android:orientation="vertical"
+		android:padding="5dp"
+		android:background="#90000000"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_gravity="center_horizontal|top">
+		
+            <TextView android:id="@+id/btConnectionStatusLabel"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="18dip"
+				android:visibility="gone"
+				/>
+			<TextView android:id="@+id/btStatusLabel"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				/>
+			<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+			    android:id="@+id/listLan"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:paddingTop="10dp"
+			    android:paddingBottom="10dp"
+			    android:paddingLeft="0dp"
+			    android:paddingRight="0dp"
+				/>
+		</LinearLayout>
+	</LinearLayout>
+	    
+   
+    <!-- Status bar -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/statusBar"
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal|top" android:visibility="gone">
+		<TextView android:id="@+id/statusLabel"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="32sp"
+			/>
+	</LinearLayout>
+		
+	 <!-- Game End -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/gameEnd"
+		android:orientation="vertical"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:background="@drawable/main_menu_border"
+		android:visibility="gone">
+		<TextView android:id="@+id/gameWin"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:gravity="center" android:textSize="36sp"/>
+		<TextView android:id="@+id/gameOver"
+			android:layout_height="wrap_content"
+			android:text="@string/gameover" android:layout_width="fill_parent" android:gravity="center" android:textSize="36sp"/>
+		
+			<Button xmlns:android="http://schemas.android.com/apk/res/android"
+				style="@style/MainMenuButton"
+				android:id="@+id/mainMenuAgain"
+				android:text="@string/playagain"
+				android:onClick="buttonOnPlayAgainClick"
+				/>
+			<Button xmlns:android="http://schemas.android.com/apk/res/android"
+				style="@style/MainMenuButton"
+				android:id="@+id/mainMenu2"
+				android:text="@string/mainmenu"
+				android:onClick="buttonShowMainMenu"
+				/>
+	</LinearLayout>			
+	
+    <!-- Main menu -->
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/mainMenu"
+		android:visibility="gone"
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+	    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@+id/mainMenuSecondLayout"
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:background="@drawable/main_menu_border"
+			android:visibility="visible">
+			<TextView android:id="@+id/mainMenuText"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="@string/app_name" android:gravity="center" android:textSize="24sp"/>
+			<Button xmlns:android="http://schemas.android.com/apk/res/android"
+				style="@style/MainMenuButton"
+				android:id="@+id/mainMenuResume"
+				android:text="@string/menuResume"
+				android:visibility="gone"
+				android:onClick="buttonResumeClick"
+				/>
+	
+			<Button xmlns:android="http://schemas.android.com/apk/res/android"
+				style="@style/MainMenuButton"
+				android:id="@+id/mainMenunewGame"
+				android:text="@string/menuNewGame"
+				android:onClick="buttonNewGameClick"
+				/>
+			<Button xmlns:android="http://schemas.android.com/apk/res/android"
+				style="@style/MainMenuButton"
+				android:id="@+id/mainMenuOptions"
+				android:text="@string/menOptions"
+				android:onClick="buttonOptionsClick"
+				/>
+			<Button xmlns:android="http://schemas.android.com/apk/res/android"
+				style="@style/MainMenuButton"
+				android:id="@+id/mainMenuAbout"
+				android:text="@string/menuAbout"
+				android:onClick="buttonAboutClick"
+				/>
+			<Button xmlns:android="http://schemas.android.com/apk/res/android"
+				style="@style/MainMenuButton"
+				android:id="@+id/mainMenuExit"
+				android:text="@string/menuExit"
+				android:onClick="buttonExitClick"
+				/>
+		</LinearLayout>
+	<TextView android:id="@+id/versionText"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_gravity="right|bottom"
+				android:textSize="10sp"
+				/>
+	</FrameLayout>
+	<!--  Options -->
+    <LinearLayout android:id="@+id/OptionsLayout" android:background="#90000000" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|center_horizontal" android:padding="10dip" android:visibility="gone" android:orientation="vertical" android:layout_marginLeft="20dip" android:layout_marginRight="20dip">
+
+		<ScrollView android:id="@+id/options_content_view"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_weight="1">
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@+id/options_content_view_lay"
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">	
+				<CheckBox style="@style/CheckBox" android:id="@+id/cSFX" android:checked="true" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/optionSound"></CheckBox>
+			    				
+				<RadioGroup android:id="@+id/RadioPlayers" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical">
+					<TextView android:id="@+id/TextView06" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/optionPlayers"></TextView>
+					<RadioButton style="@style/RadioButton" android:layout_height="wrap_content" android:id="@+id/btnOneArcade" android:layout_width="wrap_content" android:text="@string/optionArcade" android:checked="true"></RadioButton>		
+					<RadioButton style="@style/RadioButton" android:layout_height="wrap_content" android:id="@+id/btnOnePlayer" android:layout_width="wrap_content" android:text="@string/optionSingleplayer"></RadioButton>
+					<RadioButton style="@style/RadioButton" android:layout_height="wrap_content" android:id="@+id/btnTwoPlayer" android:layout_width="wrap_content" android:text="@string/optionTwoPlayers"></RadioButton>
+					<RadioButton style="@style/RadioButton" android:layout_height="wrap_content" android:id="@+id/btnWiFiMulti" android:layout_width="wrap_content" android:text="@string/optionWiFiMulti"></RadioButton>
+				    <RadioButton style="@style/RadioButton" android:layout_height="wrap_content" android:id="@+id/btnBtMulti" android:layout_width="wrap_content" android:text="@string/optionBtMulti"></RadioButton>
+				</RadioGroup>
+				
+				<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+					android:id="@+id/options_oneplayer_lay"
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content">
+					
+				    <RadioGroup android:id="@+id/RadioControlGroup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical">
+						<TextView android:id="@+id/TextView05" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/optionInput"></TextView>
+						<RadioButton style="@style/RadioButton" android:layout_height="wrap_content" android:id="@+id/btnOnScreenr" android:layout_width="wrap_content" android:text="@string/optionInputOnScreen" android:checked="true"></RadioButton>
+						<RadioButton style="@style/RadioButton" android:layout_height="wrap_content" android:id="@+id/btnTilt" android:layout_width="wrap_content" android:text="@string/optionInputTilt"></RadioButton>
+						<RadioButton style="@style/RadioButton" android:layout_height="wrap_content" android:id="@+id/btnTilt2" android:layout_width="wrap_content" android:text="@string/optionInputTilt2"></RadioButton>
+					</RadioGroup>
+					<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+					android:id="@+id/options_tiltsetiings_lay"
+					android:orientation="vertical"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+						<Button
+					        android:id="@+id/Button05"
+					        style="@style/MainMenuButton"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:onClick="onOptionsDefaultTilt"
+					        android:text="@string/optionDefaultTilt" />
+						<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+							android:id="@+id/options_sens_lay"
+							android:orientation="vertical"
+							android:layout_width="fill_parent"
+							android:layout_height="wrap_content">	
+							<TextView android:id="@+id/TextView08" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/optionInputTiltSens"></TextView>
+							<SeekBar style="@style/SeekBar"
+						    android:id="@+id/sbSensitivity"
+						    android:layout_width="fill_parent"
+						    android:layout_height="wrap_content" android:max="70"/>
+						</LinearLayout>
+					</LinearLayout>	
+					<RadioGroup android:id="@+id/RadioPosGroup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical">
+						<TextView android:id="@+id/TextView07" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/optionPos"></TextView>
+					
+						<RadioButton style="@style/RadioButton" android:layout_height="wrap_content" android:id="@+id/btnLeft" android:layout_width="wrap_content" android:text="@string/optionPosLeft" android:checked="true"></RadioButton>
+						<RadioButton style="@style/RadioButton" android:layout_height="wrap_content" android:id="@+id/btnRight" android:layout_width="wrap_content" android:text="@string/optionPosRight"></RadioButton>
+						<RadioButton style="@style/RadioButton" android:layout_height="wrap_content" android:id="@+id/btnSwap" android:layout_width="wrap_content" android:text="@string/optionPosSwap"></RadioButton>
+					</RadioGroup>
+			
+					<RadioGroup
+					    android:id="@+id/RadioDifficultyGroup"
+					    android:layout_width="fill_parent"
+					    android:layout_height="wrap_content"
+					    android:orientation="vertical" >
+			
+					    <TextView
+					        android:id="@+id/TextView01"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/optionDifficulty"/>
+					    
+					    <TextView
+					        android:id="@+id/twDifficultyChanged"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:visibility="gone"
+					        android:text="@string/difficultyChanged"/>
+			
+					    <RadioButton style="@style/RadioButton"
+					        android:id="@+id/btnEasy"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/optionEasy"/>
+					    
+					    <RadioButton style="@style/RadioButton"
+					        android:id="@+id/btnNormal"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:checked="true"
+					        android:text="@string/optionNormal"/>
+			
+					    <RadioButton style="@style/RadioButton"
+					        android:id="@+id/btnHard"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/optionHard"/>
+					    <RadioButton style="@style/RadioButton"
+					        android:id="@+id/btnVeryHard"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/optionVeryHard"/>
+					    <RadioButton style="@style/RadioButton"
+					        android:id="@+id/btnNightmare"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:text="@string/optionNightmare"/>
+					</RadioGroup>
+				</LinearLayout>
+			</LinearLayout>
+		</ScrollView>	
+	</LinearLayout>
+	
+    <!-- Connection lost -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/connectionLostLayout"
+		android:orientation="vertical"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:background="@drawable/main_menu_border"
+		android:visibility="gone">
+		<TextView android:id="@+id/MainMenuConnectionLostTV"
+			android:layout_height="wrap_content"
+			android:text="@string/connectionLost" android:layout_width="fill_parent" android:gravity="center" android:textSize="36sp"/>
+		
+			<Button xmlns:android="http://schemas.android.com/apk/res/android"
+				style="@style/MainMenuButton"
+				android:id="@+id/mainMenuConnectionLost"
+				android:text="@string/connectionLostClose"
+				android:onClick="buttonOnConnectionLost"
+				/>
+	</LinearLayout>	
+	 	
+	
+</FrameLayout>
